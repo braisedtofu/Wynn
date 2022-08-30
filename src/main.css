@@ -1,0 +1,532 @@
+* {
+    box-sizing: border-box;
+  }
+
+@font-face {
+    src: url(fonts/TimesNewRomanMTStd-BoldCond.ttf);
+    font-family: evan;
+}
+
+@font-face {
+    src: url(fonts/Aura-Oblique.ttf);
+    font-family: aura-oblique;
+}
+
+@font-face {
+    src: url(fonts/NexaBold.ttf);
+    font-family: nexa-bold;
+}
+
+@font-face {
+    src: url(fonts/NexaLight.ttf);
+    font-family: nexa-light;
+}
+
+@font-face {
+    src: url(fonts/Hack-Regular.ttf);
+    font-family: hack;
+}
+
+@font-face {
+    src: url(fonts/AnonymousPro-Regular.ttf);
+    font-family: anon;
+
+}
+
+@font-face {
+    src: url(fonts/PressStart2P.ttf);
+    font-family: pixel;
+
+}
+
+@font-face {
+    src: url(fonts/VCR_OSD_MONO_1.001.ttf);
+    font-family: pixel2;
+
+}
+
+
+.top_navigation{
+    overflow: hidden;
+    margin: 2%;
+    
+}
+
+.icon{
+    float:left;
+
+}
+
+.email{
+    float: right; 
+    margin-right: 10%;
+    margin-top: 4%;
+    
+}
+
+.linkedin{
+    float: right; 
+    margin-right: 1%;
+    margin-top: 4%;
+}
+
+img.resizemail{
+    height:24.7px; 
+    width: 26px; 
+}
+
+img.resizelinkedin{
+    height: 25px; 
+    width: auto;
+}
+
+html, body {
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: table;
+
+}
+
+
+body {
+    background:white;
+    position: relative;
+    color: white;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    min-height: 100%;  
+}
+
+
+.topnav {
+    font-family: pixel; 
+    overflow: hidden;
+    float: left; 
+    margin-left: 3%;
+    margin-top: 3%
+
+
+  }
+  
+  .topnav a {
+    float: left;
+    color: #495A9F;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1vw;
+    font-size: 20px; 
+  }
+  
+  .topnav a:hover {
+    color: #191E80;
+  }
+  
+  .topnav a.active {
+    color: #191E80;
+  }
+  
+
+p{
+    font-family: pixel;
+    font-size: 0.1vw;
+    font-size: 30px; 
+}
+
+
+p2 {
+    color: #495A9F;
+    font-family: pixel;
+    font-size: 0.1vw;
+    font-size: 20px; 
+
+}
+
+p3{
+    
+    color: #191E80;
+    font-family: pixel2;
+    font-size: 0.3vw;
+    font-size: 15px; 
+
+
+}
+
+.mainbody{
+    float:left; 
+    min-width: 60%
+}
+
+.img.resizeghost{
+    width: 20px;
+    height: auto;
+}
+
+.parent{
+    display:flex; 
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-bottom: 4;
+    margin-top: 4%; 
+}
+.intro{
+    animation-name: slidein;
+    animation-duration: 2.5s; 
+    animation-name: fadeinintro;
+    animation-fill-mode: forwards;  
+}
+
+.introduction{
+    font-family: pixel2;
+    height: 0%;
+    width: 75%;
+    margin-top: 2%; 
+    color: #D3D3D3;
+    animation-name: fadeinintro;
+    animation-duration:2.5s;
+    animation-fill-mode: forwards;  
+     
+}
+
+.ghost_icon{
+    flex:1; 
+    margin-top: 2%;
+    margin-right: 14%;
+    animation-duration: 2.5s; 
+    animation-name: fadeinintro_right;
+    animation-fill-mode: forwards;  
+    width: 100%;
+    height: auto;
+
+  }
+
+  @media all and (max-width: 480px) {
+    .ghost_icon {
+      display: none;
+    }
+
+    
+}
+
+@media all and (max-width: 480px) {
+  .linkedin {
+    display: none;
+  }
+
+  
+}
+
+@media all and (max-width: 480px) {
+  .email {
+    display: none;
+  }
+
+  
+}
+
+@media all and (max-width: 480px) {
+  .icon {
+    display: none;
+  }
+
+  
+}
+
+
+footer{
+  color: #495A9F;
+  font-size: 2vw;
+  font-size: 10px; 
+  font-family: pixel; 
+  text-align: center;
+  display: table-row;
+  height: 4%;
+}
+
+
+p4{
+    color: #495A9F;
+    font-size: 2vw;
+    font-size: 20px; 
+    font-family: pixel; 
+}
+
+
+p5{
+    color: #495A9F;
+    font-size: 3vw;
+    font-size: 24px;
+    font-family: pixel2; 
+    display: block;
+    margin-top: 2%;
+    text-align: center;
+    width: 100%; 
+    height: auto; 
+}
+p6{
+    color: #191E80;
+    font-size: 1.5vw;
+    font-family: pixel2; 
+    display: block;
+    text-align: center;
+    width: 100%; 
+    height: auto; 
+
+}
+p7{
+    color: #495A9F;
+    font-size: 2vw;
+    font-size: 20px; 
+    font-family: pixel2; 
+    display: block;
+    text-align: left;
+    width: 100%; 
+    height: auto; 
+}
+p8{
+    color: #191E80;
+    font-size: 3vw;
+    font-size: 30px; 
+
+    font-family: pixel2; 
+    display: block;
+    text-align: left;
+    width: 100%; 
+    height: auto; 
+}
+p9{
+    color: #191E80;
+    font-size: 4vw;
+    font-size: 60px; 
+    font-family: pixel2; 
+    display: block;
+    text-align: left;
+    width: 100%; 
+    height: auto; 
+}
+
+
+.block{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    margin-top: 2%; 
+    width: 22.5%; 
+    height: auto; 
+    float: left; 
+    list-style-type: none;
+    animation-name: fadein;
+    animation-fill-mode: forwards;  
+    animation-duration: 2.5s; 
+
+}
+.row{
+    overflow: hidden; 
+    display: flex;
+}
+
+@media screen and ( max-width: 500px ) { 
+  .row { flex-direction: column; }
+}
+
+@media screen and ( max-width: 500px ) { 
+  .block { width: 90%;}
+}
+
+.card{
+    display: inline-block;
+    text-align: center;
+    width: 100%; 
+    height: auto; 
+    display: block;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    cursor: pointer;
+
+}
+
+.wrap{
+    position: relative;
+}
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .wrap:hover .card{
+    opacity: 0.3;
+    width:99%; 
+    height: auto; 
+  }
+  
+  .wrap:hover .middle{
+    opacity: 1;
+}
+
+  .text {
+    color: #191E80;
+    font-family: pixel2;
+    font-size: 16px;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+/* Add some padding inside the card container */
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    /*padding-top: 20px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    animation-name: fadein;
+    animation-fill-mode: forwards;  
+    animation-duration: 0.6s; 
+    
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-duration: 0.4s
+  }
+  .modalpics{
+    width: 100%; 
+    height: auto; 
+    margin-top: 2%; 
+
+  }
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #191E80;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    margin: 2% auto; 
+    width: 40%;
+        
+  }
+  
+  .modal-body {
+        margin: 2%;
+        width: 40%;
+        margin: 0 auto;
+}
+
+@media screen and ( max-width: 500px ) { 
+  .modal-header {width: 90%;  }
+  .modal-body {width: 90%;}
+
+}
+
+  
+body.modal-open {
+    height: 100vh;
+    overflow-y: hidden;
+  }
+  
+
+.w3-animate-show{
+    animation: show 0.6s;
+    animation-fill-mode:forwards; 
+}
+
+.w3-animate-show {
+    animation: show 0.6s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes show {
+    0% {
+      opacity: 1
+    }
+    100% {
+      opacity: 0
+    }
+  }
+ 
+@keyframes show{
+    0%{opacity:1}
+    100%{opacity:0}
+}
+
+@keyframes fadeinintro{
+    0% {opacity:0; }
+    100%{opacity:1; transform: translateX(20px); }
+}
+
+@keyframes fadein{
+    0% {opacity:0; }
+    100%{opacity:1; }
+}
+
+@keyframes fadeout{
+    100% {opacity:1; }
+    0%{opacity:0; }
+}
+
+
+@keyframes fadeinintro_right{
+    0% {opacity:0; }
+    100%{opacity:1; transform: translateX(-20px); }
+}
+
+
+
+@keyframes fadeinsidebars{
+    0% {opacity:0; }
+    100%{opacity:1; transform: translateX(-20px); }
+}
