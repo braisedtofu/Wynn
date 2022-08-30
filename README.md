@@ -1,4 +1,4 @@
 # Wynn
-My personal website: [wynnmo.com](wynnmo.com) ⊂(´･◡･⊂ )∘˚˳°
+My personal website: [wynnmo.com](www.wynnmo.com) ⊂(´･◡･⊂ )∘˚˳°
 
 ![Alt text](homepage.png?raw=true)
