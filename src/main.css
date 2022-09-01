@@ -270,6 +270,10 @@ p5{
     text-align: center;
     width: 100%; 
     height: auto; 
+    animation-name: fadein;
+    animation-fill-mode: forwards;  
+    animation-duration: 2.5s; 
+
 }
 p6{
     color: #191E80;
@@ -282,14 +286,15 @@ p6{
 
 }
 p7{
-    color: #495A9F;
+    color: #191E80;
     font-size: 2vw;
     font-size: 20px; 
-    font-family: pixel2; 
+    font-family: helv; 
     display: block;
     text-align: left;
     width: 100%; 
     height: auto; 
+
 }
 p8{
     color: #191E80;
