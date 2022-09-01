@@ -75,6 +75,13 @@
     margin-top: 4%;
 }
 
+.github{
+  float: right; 
+  margin-right: 1%;
+  margin-top: 3.8%;
+}
+
+
 img.resizemail{
     height:24.7px; 
     width: 26px; 
@@ -84,6 +91,12 @@ img.resizelinkedin{
     height: 25px; 
     width: auto;
 }
+
+img.resizegithub{
+  height: 27px; 
+  width: auto;
+}
+
 
 html, body {
   overflow-x: hidden;
